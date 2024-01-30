@@ -25,5 +25,19 @@ run Application
 
 Run Application
 ```bash
- python -m flask --host="0.0.0.0."
+ python -m flask run --host="0.0.0.0."
+```
+
+Docker cammands 
+```bash
+  docker build -t maddy .
+```
+docker images 
+```bash
+  docker images 
+```
+
+start application
+```bash
+  docker run -d -p 5000:5000 maddy 
 ```
